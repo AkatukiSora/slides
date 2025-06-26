@@ -10,9 +10,6 @@ backgroundColor: #ffffff
 .lead h1 {
   font-size: 70px;
 }
-.lead h3 {
-  font-size: 35px;
-}
 .cta {
   background-color: #007bff;
   color: #ffffff;
@@ -25,7 +22,7 @@ backgroundColor: #ffffff
 <!-- _class: lead -->
 
 # サーバーと1年間同棲して  
-### ― 濃く 短く 重たい LT ―
+### ― 案外悪くない生活だったぞ ―
 
 <!-- _speaker_notes:
 「サーバーと一年間添い寝して」というタイトルで LT させて頂きます。  
@@ -47,9 +44,9 @@ backgroundColor: #ffffff
 
 ## <i class="fas fa-stream"></i> 概要 (3行まとめ)
 
-- **導入のハードルと現実** (騒音/費用/場所)
-- **サーバーとの暮らし** (耳は無事/ラックは安眠グッズ)
-- **さあ、はじめよう** (何でもサーバー/CTA)
+- **導入のハードルと現実** - 騒音/費用/場所
+- **サーバーとの暮らし** - 案外悪くない
+- **さあ、はじめよう** - 何でもサーバー化
 
 <!-- _speaker_notes:
 だいたいこんな流れです。詳細は後で爆速解説！
@@ -57,7 +54,7 @@ backgroundColor: #ffffff
 
 ---
 
-## <i class="fas fa-user-circle"></i> 自己紹介
+# <i class="fas fa-user-circle"></i> 自己紹介
 
 <!-- _speaker_notes:
 自己紹介ですが…
@@ -65,7 +62,7 @@ backgroundColor: #ffffff
 
 ---
 
-## <i class="fas fa-user-slash"></i> ...は、削除済！
+# <i class="fas fa-user-slash"></i> 省略済み
 
 <!-- _speaker_notes:
 真っ先に自己紹介を削れと言われたので削ります。次！
@@ -73,7 +70,7 @@ backgroundColor: #ffffff
 
 ---
 
-## <i class="fas fa-heart"></i> 欲しくなる理由（偏見）
+# <i class="fas fa-heart"></i> 欲しくなる理由（偏見）
 
 - データの主権を渡したくない
 <!-- -->
@@ -107,9 +104,9 @@ backgroundColor: #ffffff
 
 ## <i class="fas fa-headphones"></i> 騒音は慣れる
 
-- 脳内 Adapt ANC  
-- 数時間で BGM 化  
-- WHO 基準 ≧ SAFE
+- 脳は適応型ノイズキャンセリング搭載
+- 数時間で慣れて気にならなくなる
+- WHO基準 セーフ
 
 <!-- _speaker_notes:
 案外慣れます。脳は長時間の連続音を自動でフィルタします。  
@@ -118,15 +115,15 @@ backgroundColor: #ffffff
 
 ---
 
-## <i class="fas fa-ear-listen"></i> 聴力は無事！
+## <i class="fas fa-ear-listen"></i> 聴力は無事？
 
-- 耳鼻科「異常なし」 & 安堵の検査結果
+- 耳鼻科「異常なし、よく聞こえてるね」
 - 枕元 **35 dB**
 
 **騒音レベル比較:**
 - WHO推奨 (日中): 40dB
 - **自室の実測値: 35dB**
-(→ SAFE!)
+(→ セーフ！！！！)
 
 <!-- _speaker_notes:
 聴力検査で「特に問題ないね」と言われました。朗報、耳は無事です！
@@ -137,8 +134,8 @@ WHOの基準値も下回っており、一安心。
 
 ## <i class="fas fa-money-bill-wave"></i> お金の問題
 
-- 中古 **≈3 万円**  
-- 消費電力は意外に小さい  
+- 中古 **3万円** 前後 
+- 消費電力は意外に小さい (150W程度)
 - ラックサーバーじゃなくても OK
 
 <!-- _speaker_notes:
@@ -150,9 +147,9 @@ WHOの基準値も下回っており、一安心。
 
 ## <i class="fas fa-map-marker-alt"></i> 場所がない問題
 
-- 棚板でルーターも小物も  
-- “置く”でなく“納める”  
-- **ラック＝収納** を唱えよ
+- 棚板でルーターも小物も収納  
+- 
+- 皆さんご唱和ください 「**ラックは収納**」
 
 <!-- _speaker_notes:
 ラックに棚板を付ければ立派な収納。  
@@ -230,13 +227,14 @@ IP を外に晒したくないので Cloudflare Tunnel を併用しています�
 - 「これサーバーになる？」大歓迎  
 - 技術でも私生活でも OK
 
+<!-- TODO: QRから直接発言しなくても質問できるサービスなんかを使うかも -->
 <!-- _speaker_notes:
 質問どうぞ！何でもサーバーになるか聞いてみてください。
 -->
 
 ---
 
-## <i class="fas fa-biohazard"></i> （余ったら）物理事故集
+## <i class="fas fa-biohazard"></i> (尺稼ぎ) 物理事故集
 
 - ラック収納で電源ボタン誤爆
 <!-- -->
@@ -247,3 +245,17 @@ IP を外に晒したくないので Cloudflare Tunnel を併用しています�
 <!-- _speaker_notes:
 時間が余れば語ります。足りなければここで終了！
 -->
+
+---
+
+# ラック収納で電源ボタン誤爆
+
+---
+
+# Thin Provision ↓
+# 物理領域枯渇で I/O 地獄
+
+---
+
+# 家族がエアコン OFF → 32 ℃ 
+# … ギリ無事
