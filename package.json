@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "marp --watch --server --allow-local-files --theme-set ./themes/ -o ./dist/ -I ./slides/",
+    "build": "marp --allow-local-files -o ./dist/ ./slides/*.md"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.2.0",
-    "playwright": "^1.53.1"
+    "@marp-team/marp-cli": "^4.2.0"
   }
 }
